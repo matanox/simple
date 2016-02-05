@@ -1,0 +1,1 @@
+lazy val simple = (project in file(".")).settings(scalaVersion := "2.11.7")

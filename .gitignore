@@ -1,0 +1,51 @@
+#################
+# build and ide #
+#################
+
+# sbt
+dist/*
+target/
+lib_managed/
+src_managed/
+project/boot/
+project/plugins/project/
+credentials.sbt
+*.icode
+
+# IntelliJ
+.idea
+.idea_modules
+
+# eclipse / Scala-IDE
+.classpath
+.project
+.settings/
+.cache*
+.scala_dependencies
+.classpath
+*.iml
+/bin/
+
+####################
+# project-specific #
+####################
+
+canve.log
+github-cruncher-out/
+out/
+
+# integration tests nested test repos
+integration-test-projects/
+
+###########################################
+# typically manually created output files #
+###########################################
+*.txt
+*.out
+*.old
+
+#######################
+# data of run on self #
+#######################
+canve-data/
+canve-data*/
